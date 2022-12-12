@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-// case sensativie in capitable letter and smaller letter
+// case sensitive in capitable letter and smaller letter
 
 void findWord(char word[100]);
 char word[100];
@@ -56,7 +56,7 @@ void findWord(char word[100])
         {
             printf("We found %s: %d times", word, count);
         }else{
-            printf("We found %s: %d times", word, count);
+            printf("We found %s: %d time", word, count);
         }
         found=0;
     }
